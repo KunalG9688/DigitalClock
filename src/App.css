@@ -1,0 +1,38 @@
+.number {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    animation: slide-top-to-bottom 1s ease-in-out;
+  }
+  
+  .number-bottom {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    animation: slide-top-to-bottom 1s ease-in-out;
+    animation-delay: 0.5s;
+  }
+
+  .card {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 120px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card p {
+    font-size: 3rem;
+    color: white;
+  }
+
+  .card span {
+    font-size: 0.8rem;
+    color: #ccc;
+  }
